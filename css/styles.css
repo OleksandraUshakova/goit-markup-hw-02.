@@ -1,0 +1,87 @@
+:root{
+    --primary-title-color:#212121;
+    --primary-text-color:#757575;
+    --second-title-color:#FFFFFF;
+    --accent-color:#2196F3;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--second-title-color);
+    }
+
+.btn:hover,
+.btn:focus{
+    color: var(--accent-color);
+}
+
+    /* ------header-------- */
+.menu-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--primary-title-color);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+.header-mail{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+
+.header-tel{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--primary-text-color);
+}
+
+/* ----------main--------- */
+.hero-link{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--primary-title-color) ;          
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+
+/* ------footer--------- */
+.address{
+    font-style: normal;
+}
