@@ -50,7 +50,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--accent-color);
+/* color: var(--accent-color); */
 }
 
 .header-tel{
@@ -58,7 +58,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color:var(--primary-text-color);
+/* color:var(--primary-text-color); */
 }
 
 /* ----------main--------- */
@@ -122,20 +122,24 @@ letter-spacing: 0.03em;
 }
 
 /* -------------team------------ */
-.team-list{
+.team-person{
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;    
-}
-
-.team-person{
-    color:var(--primary-title-color)
+/* text-align: center; */
+letter-spacing: 0.03em;
+color:var(--primary-title-color)
 }
 
 .team-occupation{
-    color: var(--primary-text-color);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+/* text-align: center; */
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
 
 /* ------footer--------- */
